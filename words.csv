@@ -1,2 +1,14 @@
-word,translation,part,ref,tags
-Apple,りんご,名詞,basic,fruit
+word, translation, part, ref, tags
+Apple, りんご, 名詞, basic, fruit
+Banana, バナナ, 名詞, basic, fruit
+Cherry, さくらんぼ, 名詞, basic, fruit
+Grape, ぶどう, 名詞, basic, fruit
+Orange, オレンジ, 名詞, basic, fruit
+Strawberry, いちご, 名詞, basic, fruit
+Dog, 犬, 名詞, basic, animal
+Cat, 猫, 名詞, basic, animal
+Elephant, 象, 名詞, basic, animal
+Bird, 鳥, 名詞, basic, animal
+Car, 車, 名詞, basic, vehicle
+Bike, 自転車, 名詞, basic, vehicle
+Train, 電車, 名詞, basic, vehicle
