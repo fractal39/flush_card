@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語長</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="cardList" class="card-list"></div>
+
+<div class="card hidden" id="flashcard" onclick="nextCard()">
+    <div class="tags" id="flashcardTags"></div>
+    <div class="word" id="word">タップして開始</div>
+    <div class="translation" id="translation"></div>
+    <div class="part" id="part"></div>
+    <div class="ref" id="ref"></div>
+</div>
+
+<button onclick="toggleLanguage()">言語をトグル</button>
+<button onclick="startFlashcards()" id="startBtn">フラッシュカード開始</button>
+<button onclick="showList()" id="listBtn" class="hidden">一覧に戻る</button>
+<script src="script.js"></script>
+</body>
+</html>
