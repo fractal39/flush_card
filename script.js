@@ -3,7 +3,7 @@ let currentIndex = -1;
 let isEnglishFirst = true;
 
 async function loadCards() {
-    const response = await fetch('/words.csv');
+    const response = await fetch('words.csv');
     const csvText = await response.text();
 
     const lines = csvText.trim().split('\n');
